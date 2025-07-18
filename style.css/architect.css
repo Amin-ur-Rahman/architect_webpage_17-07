@@ -208,6 +208,7 @@ p {
     /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.08); */
      box-shadow:  0 0 4px rgba(0, 0, 0, 0.04),
   0 0 12px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
 }
 .hero-btn {
   width: 50%;
