@@ -150,12 +150,18 @@ p {
 }
 
 /* hero section */
+.hero-section-container {
+  width: 76vw;
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: column;
+}
 
 .hero-section {
-    width: 76vw;
+    width: 100%;
     display: flex;
-    margin: 10vh auto;
     gap: 3vw;
+    align-items: center;
 }
 
 .hero-title {
@@ -192,9 +198,12 @@ p {
     /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.08); */
      box-shadow:  0 0 4px rgba(0, 0, 0, 0.04),
   0 0 12px rgba(0, 0, 0, 0.06);
-
-    
 }
+.hero-btn {
+  width: 50%;
+  margin: 4vh auto;
+}
+
 
 
 @media screen and (max-width: 767px) {
