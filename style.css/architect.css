@@ -57,8 +57,9 @@
 }
 p {
   line-height: 1.6;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
+  /* this is not a good practice tbh */
+  /* word-wrap: break-word;      
+  overflow-wrap: break-word; */  
 }
 
 /* header section */
