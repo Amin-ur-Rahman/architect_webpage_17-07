@@ -285,3 +285,10 @@ p {
   padding: 3vh ;
   border-radius: 8px;
 }
+
+@media screen and (max-width:767px) {
+  .sponsor-block {
+    flex-direction: column;
+    gap: 2vw;
+  }
+}
